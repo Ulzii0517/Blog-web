@@ -3,11 +3,13 @@ import { SearchIcon } from "./SearchIcon";
 
 export const Header = () => {
   return (
-    <header className="flex flex-col justify-center items-center w-full h-auto">
-      <div className="container flex justify-center">
-        <MetaBlogIcon />
+    <header className="flex flex-col justify-center items-center w-full h-auto py-[32px] ">
+      <div className="container flex justify-between">
+        <div>
+          <MetaBlogIcon />
+        </div>
 
-        <div className="flex w-full h-auto justify-center gap-10">
+        <div className="flex w-full h-auto justify-center gap-10 pt-1 text-[16px] font-normal">
           <p>Home</p>
           <p>Blog</p>
           <p>Contact</p>
